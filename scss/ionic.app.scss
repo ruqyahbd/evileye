@@ -1,0 +1,14 @@
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+body, p, h2, strong, h1 {
+	font-family: SolaimanLipi;
+	src: url(../lib/ionic/fonts/SolaimanLipi.ttf);
+}
+
+.arab {
+	text-align: right;
+	font-family: "Traditional Arabic";
+	src: url(../lib/ionic/fonts/tradbdo.ttf);
+	font-weight: bold;
+}
+

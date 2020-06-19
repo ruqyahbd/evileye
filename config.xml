@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<widget id="net.andromo.dev701953.app734469" version="4.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>বদনজরের রুকইয়াহ - Evil Eye</name>
+    <description>
+     বদনজরের লক্ষণ ও চিকিৎসা...
+   </description>
+    <author email="ruqyahbdorg@gmail.com" href="https://ruqyahbd.org/">
+        RuqyahBD Team | Abdullah Almahmud
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-targetSdkVersion" value="26" />
+    <icon src="icon.png" />
+    <plugin name="cordova-plugin-whitelist"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+</widget>
